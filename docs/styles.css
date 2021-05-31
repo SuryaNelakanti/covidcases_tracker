@@ -4,7 +4,7 @@
 }
 body{
     background: linear-gradient(to left top, #22333b, #2e466a, #6f4b89, #bd4380, #f04e4f);
-    height: 100%;
+    height: 110vh;
     color: whitesmoke;
     font-family: var(--hfont);
     width: 80%;
