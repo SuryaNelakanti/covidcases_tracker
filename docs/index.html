@@ -16,21 +16,7 @@
 </head>
 <body>
     <div class="header">
-    <h1><strong id="statePoint">India </strong> currently has <span id="pointHere">000000</span> cases.<sup class="supi">? <div id="cloud">last updated:</div></sup></h1>
-    </div>
-    <div class="stateCaseDetails" id="scd">
-        <div id="active" class="boxCase">
-            <h1>Active</h1>
-            <p id="activeChange"></p>
-        </div>
-        <div id="total" class="boxCase">
-            <h1>Total</h1>
-            <p id="totalChange"></p>
-        </div>
-        <div id="recovered" class="boxCase">
-            <h1>Recovered</h1>
-            <p id="recoveredChange"></p>
-        </div>
+    <h1><strong id="statePoint">India </strong> currently has <span id="pointHere">000000 </span><sup class="supi">? <div id="cloud"> last updated:</div></sup> cases.</h1>
     </div>
     <div class="select">
     <form id="stateSelect">
@@ -78,8 +64,25 @@
         <input type="submit" value="&#128270">
       </form>
     </div>  
-    <div>
-        <canvas id="myChart"></canvas>
+    <div class="stateCaseDetails" id="scd">
+        <div id="active" class="boxCase">
+            <h1>Active</h1>
+            <p id="activeChange"></p>
+        </div>
+        <div id="total" class="boxCase">
+            <h1>Total</h1>
+            <p id="totalChange"></p>
+        </div>
+        <div id="recovered" class="boxCase">
+            <h1>Recovered</h1>
+            <p id="recoveredChange"></p>
+        </div>
+    </div>
+    <div class="covidGraph"><h3>7 day moving average of total cases in India from 1st of August, 2020 till 1st of June 2021</h3>
+    <canvas id="myChart" width="400" height="200"></canvas>
+    </div>
+    <div class="footer">
+        <p id="contact">Designed by Surya Nelakanti:<br/><br><a href="https://www.linkedin.com/in/surya-nelakanti-49470b172/">LinkedIn</a> / <a href="https://github.com/SuryaNelakanti">GitHub</a> / <a href="mailto:suryateja.nelakanti@gmail.com">E-Mail</a></p></p>
     </div>
       
 
