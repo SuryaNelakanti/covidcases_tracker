@@ -7,4 +7,4 @@ Made in HTML, CSS and JS.
 
 Used Chart.Js to make the chart for the 7dma (7 day moving average) cases in India.
 
-Site can be found here: https://suryanelakanti.github.io/covidcases_tracker/
+Site can be found here: https://suryanelakanti.github.io/covidcases_tracker/index.html
