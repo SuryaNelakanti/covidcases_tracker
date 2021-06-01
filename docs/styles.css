@@ -4,12 +4,13 @@
 }
 body{
     background: linear-gradient(to left top, #22333b, #2e466a, #6f4b89, #bd4380, #f04e4f);
-    height: 110vh;
     color: whitesmoke;
     font-family: var(--hfont);
     width: 80%;
     margin: 0 auto;
 }
+
+
 nav{
     display: flex;
     justify-content: center;
@@ -35,8 +36,7 @@ span{
     color: #f04e4f;
     font-family: var(--pfont);
 }
-#statePoint{
-}
+
 #states,input{
     border: 1px transparent;
     color: whitesmoke;
@@ -59,11 +59,9 @@ input{
 select{
     appearance: none;
     cursor: pointer;
-    margin-top: 100px;
+    margin-top: 10px;
 }
-.select{
-    margin-top: 50px;
-}
+
 sup{
     font-size: 14px;
     color: #22333b;
@@ -135,4 +133,28 @@ sup{
     box-shadow: 0px 0px 20px 3px #2e466a;
     color: #22333b;
     background: #2e466a;
+}
+.covidGraph{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 10px 3px #22333b;
+
+}
+h3{
+    text-align: center;
+    font-family: var(--hfont);
+    color:#bd4380;
+    border-bottom:  medium solid #bd4380;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    color: grey;
+    box-shadow: 0 0 20px 3px #bd4380;
+    border-radius: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #bd4380;
 }
