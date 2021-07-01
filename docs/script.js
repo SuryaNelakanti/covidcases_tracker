@@ -93,17 +93,18 @@ var ctx = document.getElementById('myChart');
 var myChart = new Chart(ctx, {
     type: 'line',
     data: {
-        labels: ['August','September','October','November','Dec','Jan', 'Feb', 'March', 'April', 'May', 'June'],
+        labels: ['August','September','October','November','Dec','Jan', 'Feb', 'March', 'April', 'May', 'June','July'],
         datasets: [{
             label: '7 day average of cases',
-            data: [52583,77596,82214,45622,38400, 16799, 12899, 18825, 65211, 392488,175167],
+            data: [52583,77596,82214,45622,38400, 16799, 12899, 18825, 65211, 392488,175167,46979],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
                 'rgba(255, 206, 86, 0.2)',
                 'rgba(75, 192, 192, 0.2)',
                 'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(225, 59, 64, 0.2)'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
@@ -111,7 +112,8 @@ var myChart = new Chart(ctx, {
                 'rgba(255, 206, 86, 1)',
                 'rgba(75, 192, 192, 1)',
                 'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(255, 159, 64, 1)',
+                'rgba(255, 102, 255, 1)'
             ],
             borderWidth: 1,
             tension: 0.4
